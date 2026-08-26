@@ -3,7 +3,7 @@ interface Burger {
     prepare(): void;
 }
 
-class BasicBurger implements Burger {
+export class BasicBurger implements Burger {
     prepare(): void {
         console.log('Preparing Basic Burger with bun, patty, and ketchup!');
     }
